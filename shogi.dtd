@@ -1,0 +1,14 @@
+<!ENTITY % tejunlist "(sente | gote)">
+<!ENTITY % komalist "(fu | kyo | kei | gin | kin | hi | kaku | ou | gyoku)">
+<!ENTITY % bool "(true | false)">
+<!ENTITY % mochigomalist "(true | false | restall )">
+<!ENTITY % zahyo "(1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)">
+<!ELEMENT shogi (koma*)>
+<!ELEMENT koma EMPTY>
+<!ATTLIST koma
+	  tejun %tejunlist; #REQUIRED
+	  name %komalist; #IMPLIED
+	  nari %bool; #IMPLIED
+	  mochigoma %mochigomalist; #IMPLIED
+	  x %zahyo; #IMPLIED
+	  y %zahyo; #IMPLIED>

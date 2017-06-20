@@ -1,0 +1,57 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+  </xsd:annotation>
+  <xsd:element name="shogi" type="shogiType" />
+  <xsd:complexType name="shogiType">
+    <xsd:sequence>
+      <xsd:element name="koma" type="komaType" maxOccurs="unbounded" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="komaType">
+    <xsd:attribute name="tejun" type="tejunType" use="required" />
+    <xsd:attribute name="name" type="komaNameType"/>
+    <xsd:attribute name="nari" type="xsd:boolean" default="false" />
+    <xsd:attribute name="mochigoma" type="mochigomaType" default="false" />
+    <xsd:attribute name="x" type="zahyo"/>
+    <xsd:attribute name="y" type="zahyo"/>
+  </xsd:complexType>
+  <xsd:simpleType name="tejunType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="sente" />
+      <xsd:enumeration value="gote" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="komaNameType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="fu" />
+      <xsd:enumeration value="kyo" />
+      <xsd:enumeration value="kei" />
+      <xsd:enumeration value="gin" />
+      <xsd:enumeration value="kin" />
+      <xsd:enumeration value="hi" />
+      <xsd:enumeration value="kaku" />
+      <xsd:enumeration value="ou" />
+      <xsd:enumeration value="gyoku" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="mochigomaType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="true" />
+      <xsd:enumeration value="false" />
+      <xsd:enumeration value="restall" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="zahyo">
+    <xsd:restriction base="xsd:int">
+      <xsd:enumeration value="1" />
+      <xsd:enumeration value="2" />
+      <xsd:enumeration value="3" />
+      <xsd:enumeration value="4" />
+      <xsd:enumeration value="5" />
+      <xsd:enumeration value="6" />
+      <xsd:enumeration value="7" />
+      <xsd:enumeration value="8" />
+      <xsd:enumeration value="9" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

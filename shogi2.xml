@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE shogi SYSTEM "shogi.dtd">
+<shogi>
+  <koma tejun="sente" name="gin"  mochigoma="true" />
+  <koma tejun="sente" name="gin" x="5" y="3" />
+  <koma tejun="sente" name="kaku" nari="true" x="8" y="5" />
+  <koma tejun="gote" mochigoma="restall" />
+  <koma tejun="gote" name="gin" x="4" y="1" />
+  <koma tejun="gote" name="ou" x="5" y="1" />
+  <koma tejun="gote" name="gin" x="6" y="1" />
+</shogi>

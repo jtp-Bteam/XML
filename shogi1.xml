@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--DOCTYPE shogi SYSTEM "shogi.dtd"-->
+<shogi>
+  <koma tejun="sente" name="hi"  mochigoma="true" />
+  <koma tejun="sente" name="kin" x="8" y="1" />
+  <koma tejun="sente" name="hi" nari="true" x="6" y="2" />
+  <koma tejun="sente" name="kei" x="1" y="4" />
+  <koma tejun="sente" name="fu" x="1" y="5" />
+  <koma tejun="sente" name="fu" x="2" y="5" />
+  <koma tejun="sente" name="fu" x="5" y="5" />
+  <koma tejun="sente" name="gin" x="8" y="5" />
+  <koma tejun="sente" name="fu" x="3" y="6" />
+  <koma tejun="sente" name="gin" x="4" y="6" />
+  <koma tejun="sente" name="fu" x="7" y="6" />
+  <koma tejun="sente" name="fu" x="8" y="6" />
+  <koma tejun="sente" name="fu" x="9" y="6" />
+  <koma tejun="sente" name="kin" x="5" y="7" />
+  <koma tejun="sente" name="gyoku" x="9" y="7" />
+  <koma tejun="sente" name="kin" x="8" y="8" />
+  <koma tejun="sente" name="kyo" x="1" y="9" />
+  <koma tejun="sente" name="kei" x="8" y="9" />
+  <koma tejun="sente" name="kyo" x="9" y="9" />
+  <koma tejun="gote" name="fu" mochigoma="true" />
+  <koma tejun="gote" name="fu" mochigoma="true" />
+  <koma tejun="gote" name="fu" mochigoma="true" />
+  <koma tejun="gote" name="kyo" x="1" y="1" />
+  <koma tejun="gote" name="ou" x="2" y="1" />
+  <koma tejun="gote" name="kin" x="4" y="1" />
+  <koma tejun="gote" name="fu" x="1" y="2" />
+  <koma tejun="gote" name="fu" x="3" y="2" />
+  <koma tejun="gote" name="fu" x="2" y="3" />
+  <koma tejun="gote" name="kei" x="3" y="3" />
+  <koma tejun="gote" name="fu" x="6" y="3" />
+  <koma tejun="gote" name="kyo" x="9" y="3" />
+  <koma tejun="gote" name="gin" x="3" y="4" />
+  <koma tejun="gote" name="fu" x="4" y="4" />
+  <koma tejun="gote" name="gin" x="6" y="4" />
+  <koma tejun="gote" name="fu" x="9" y="4" />
+  <koma tejun="gote" name="kei" x="5" y="5" />
+  <koma tejun="gote" name="kaku" x="2" y="6" />
+  <koma tejun="gote" name="fu" nari="true" x="7" y="8" />
+  <koma tejun="gote" name="kaku" nari="true" x="6" y="9" />
+</shogi>
